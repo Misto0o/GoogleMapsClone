@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#map, #globe {
+  width: 100vw;
+  height: 100vh;
+}
+
+#globe {
+  opacity: 1; /* Ensure opacity is set to 1 (fully visible) */
+  display: none; /* Hide initially if needed, will be shown by JS */
+}

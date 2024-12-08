@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Google Maps Clone with Globe</title>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" rel="stylesheet">
+  <link rel="stylesheet" href="map.css">
+  <meta property="og:title" content="Google Maps" />
+  <meta property="og:description" content="CloneOfGoogleMaps" />
+  <meta property="og:image" content='CloneMaps\favicon-32x32.png' />
+  <!-- Replace with actual image URL -->
+  <meta property="og:url" content="" />
+  <!-- Replace with actual URL -->
+  <meta property="og:type" content="website" />
+</head>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="globe"></div> 
+  <!-- Scripts loaded in the correct order -->
+  <script src="https://unpkg.com/three@0.146.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.146.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="./map.js" defer></script>
+</body>
+</html>
